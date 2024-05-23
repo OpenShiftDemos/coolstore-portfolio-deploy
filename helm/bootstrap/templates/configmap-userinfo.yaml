@@ -7,8 +7,8 @@ metadata:
     demo.redhat.com/userinfo: ""
 data:
   {{- if .Values.coolstoreOffice }}
-  coolstore_office_ui: "https://frontend-{{ .Values.coolstoreOffice.destination.namespace }}.{{ .Values.deployer.domain }}"
+  coolstore_office_ui: "https://ui-{{ .Values.coolstoreOffice.destination.namespace }}.{{ .Values.deployer.domain }}"
   {{- end }}
   {{- if .Values.coolstoreShop }}
-  coolstore_shop_ui: "https://globex-ui-{{ .Values.coolstoreShop.destination.namespace }}.{{ .Values.deployer.domain }}"
+  coolstore_shop_ui: "https://ui-{{ .Values.coolstoreShop.destination.namespace }}.{{ .Values.deployer.domain }}"
   {{- end }}
