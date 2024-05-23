@@ -51,6 +51,7 @@ service:
   port: 8080
 
 route:
+  name: ui
   enabled: true
   host:
   tlsEnabled: true

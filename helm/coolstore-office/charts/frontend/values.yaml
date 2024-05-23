@@ -11,4 +11,7 @@ resources:
     cpu: 10m
     memory: 128Mi
 
+route:
+  name: ui
+
 gateway: my-gateway
